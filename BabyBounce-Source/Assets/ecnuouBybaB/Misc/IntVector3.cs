@@ -19,7 +19,7 @@ public struct IntVector3 {
 
 	public override bool Equals(object obj)
 	{
-		return (x == ((IntVector3)obj).x && (y == ((IntVector3)obj).y));
+		return (x == ((IntVector3)obj).x && (y == ((IntVector3)obj).y) && (z == ((IntVector3)obj).z));
 	}
 	public override int GetHashCode()
 	{
@@ -69,7 +69,7 @@ public struct IntVector3 {
     }
 
     public override string ToString() {
-        return "(" + x.ToString() + "," +y.ToString() + ")";
+        return "(" + x.ToString() + "," +y.ToString() + "," + z.ToString() + ")";
     }
 
 	public static Quaternion RotationFromDir(IntVector3 dir) {

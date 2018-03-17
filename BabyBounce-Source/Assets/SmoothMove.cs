@@ -10,11 +10,14 @@ public class SmoothMove : MonoBehaviour, IOnMove {
 
 	Coroutine currentCoroutine;
 	Vector3 lastPosition;
+	Vector3 targetPos;
 
-	void Update() {
+	void Start() {
+		targetPos = this.transform.position;
 	}
 
 	public void OnMove(IntVector3 from, IntVector3 to) {
+		Debug.Log(to);
 		if (currentCoroutine != null)
 			StopCoroutine(currentCoroutine);
 		currentCoroutine = StartCoroutine(MoveSmoothly(lastPosition, (Vector3)to));
@@ -23,12 +26,18 @@ public class SmoothMove : MonoBehaviour, IOnMove {
 	IEnumerator MoveSmoothly(Vector3 fromPos, Vector3 toPos) {
 		for (float t = 0; t < moveTime; t += Time.deltaTime) {
 			float p = t / moveTime;
-			Vector3 pos = Vector3.Lerp(fromPos, toPos, groundCurve.Evaluate(p));
-			pos += Vector3.up * verticalCurve.Evaluate(p);
-			this.transform.position = pos;
-			lastPosition = pos;
+			targetPos = Vector3.Lerp(fromPos, toPos, groundCurve.Evaluate(p));
+			if (toPos.z - fromPos.z < .5f)
+				targetPos += Vector3.up * verticalCurve.Evaluate(p);
+			else
+				targetPos.y = Mathf.Lerp(fromPos.y, toPos.y, p);
 			yield return null;
 		}
 		this.transform.position = toPos;
+	}
+
+	void LateUpdate() {
+		this.transform.position = targetPos;
+		lastPosition = this.transform.position;
 	}
 }

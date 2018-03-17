@@ -23,6 +23,7 @@ public class Gravity : MonoBehaviour, IOnMove {
 	}
 
 	IEnumerator ApplyGravity() {
+		yield return null;
 		falling = true;
 		while (!OccupantManager.S.OccupantAt(intTransform.position + IntVector3.down)) {
 			movable.TryMoveTo(intTransform.position + IntVector3.down);

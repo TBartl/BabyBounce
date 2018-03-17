@@ -2734,6 +2734,7 @@ MonoBehaviour:
       x: -1
       y: 0
       z: 0
+  moveTime: 0.2
 --- !u!114 &894514738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5050,8 +5051,8 @@ MonoBehaviour:
     - serializedVersion: 2
       time: 0
       value: 0
-      inSlope: 1.7249553
-      outSlope: 1.7249553
+      inSlope: 2.9051878
+      outSlope: 2.9051878
       tangentMode: 0
     - serializedVersion: 2
       time: 1
@@ -5074,7 +5075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bd5a83928d8ce545a6104323a52debd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveTime: 0.2
+  moveTime: 0.15
   groundCurve:
     serializedVersion: 2
     m_Curve:

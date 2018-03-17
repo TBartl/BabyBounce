@@ -7,10 +7,11 @@ public class SmoothRotate : MonoBehaviour {
 
 	public float rotateTime = .25f;
 	Coroutine currentCoroutine;
+	Quaternion targetRotation;
 	Quaternion lastRotation;
 
-	void Update() {
-		lastRotation = this.transform.rotation;
+	void Start() {
+		targetRotation = this.transform.rotation;
 	}
 
 	public void OnRotate(Quaternion from, Quaternion to) {
@@ -23,9 +24,14 @@ public class SmoothRotate : MonoBehaviour {
 	IEnumerator RotateSmoothly(Quaternion fromRot, Quaternion toRot) {
 		for (float t = 0; t < rotateTime; t += Time.deltaTime) {
 			float p = t / rotateTime;
-			this.transform.rotation = Quaternion.SlerpUnclamped(fromRot, toRot, curve.Evaluate(p));
+			targetRotation = Quaternion.SlerpUnclamped(fromRot, toRot, curve.Evaluate(p));
 			yield return null;
 		}
 		this.transform.rotation = toRot;
+	}
+
+	void LateUpdate() {
+		this.transform.rotation = targetRotation;
+		lastRotation = this.transform.rotation;
 	}
 }

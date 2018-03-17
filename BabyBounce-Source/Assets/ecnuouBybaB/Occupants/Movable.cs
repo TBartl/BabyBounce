@@ -32,15 +32,16 @@ public class Movable : MonoBehaviour {
 		if (rotate) {
 			IntVector3 groundedFrom = new IntVector3(from.x, 0, from.z);
 			IntVector3 groundedTo = new IntVector3(to.x, 0, to.z);
+			IntVector3 diff = groundedTo - groundedFrom;
 
-			Quaternion fromRot = this.transform.rotation;
-			Quaternion toRot = IntVector3.RotationFromDir(groundedTo - groundedFrom);
-
-			this.transform.rotation = toRot;
-
-			SmoothRotate smoothRotate = this.GetComponentInChildren<SmoothRotate>();
-			if (smoothRotate)
-				smoothRotate.OnRotate(fromRot, toRot);
+			if (diff.x != 0 || diff.z != 0) {
+				Quaternion fromRot = this.transform.rotation;
+				Quaternion toRot = IntVector3.RotationFromDir(diff);
+				SmoothRotate smoothRotate = this.GetComponentInChildren<SmoothRotate>();
+				if (smoothRotate)
+					smoothRotate.OnRotate(fromRot, toRot);
+				this.transform.rotation = toRot;
+			}	
 		}
 		return toReturn;
 	}

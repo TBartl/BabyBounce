@@ -21,6 +21,9 @@ public class Player : MonoBehaviour {
 
 	List<IntVector3> buffer = new List<IntVector3>();
 
+	public float moveTime = .2f;
+	bool readyToMove = true;
+
 	void Awake() {
 		intTransform = this.GetComponent<IntTransform>();
 		movable = this.GetComponent<Movable>();
@@ -34,10 +37,18 @@ public class Player : MonoBehaviour {
 			}
 		}
 
-		if (buffer.Count > 0) {
+		if (buffer.Count > 0 && readyToMove) {
 			IntVector3 dir = buffer[0];
 			buffer.RemoveAt(0);
 			movable.TryMoveTo(intTransform.position + dir);
+			StartCoroutine(Moved());
 		}
 	}
+
+	IEnumerator Moved() {
+		readyToMove = false;
+		yield return new WaitForSeconds(moveTime);
+		readyToMove = true;
+	}
+
 }
