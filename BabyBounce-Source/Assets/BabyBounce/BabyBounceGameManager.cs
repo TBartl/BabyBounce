@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class BabyBounceGameManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	public static BabyBounceGameManager S;
+
+	public float speed = .1f;
+
+	public bool started = false;
+
+	public GameObject title;
+
+	void Awake() {
+		S = this;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	void LateUpdate() {
+		if (Input.GetKeyDown(KeyCode.Space) && !started) {
+			started = true;
+			title.SetActive(false);
+		}
 	}
 }
