@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Block : MonoBehaviour {
+public class BBBlock : MonoBehaviour {
 
 	static int blockCount;
 	public List<Sprite> randomSprites;
 
-	Block() {
+	BBBlock() {
 		blockCount = 0;
 	}
 

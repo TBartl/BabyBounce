@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362da1c3c83c5d04c943dae98e41dd4f, type: 3}
+  m_Name: BlockPalette
+  m_EditorClassIdentifier: 
+  colorMats:
+  - {fileID: 2100000, guid: 5fbc83ef87156ef4d96a9f2f0d2bb81b, type: 2}
+  - {fileID: 2100000, guid: 1da4bf66a7283f246a183ba04a84fae0, type: 2}
+  - {fileID: 2100000, guid: cec1346b8ae70034584bc09c65c50677, type: 2}
+  - {fileID: 2100000, guid: 5ee5e789406a4b4489caaa8e005987ac, type: 2}
+  - {fileID: 2100000, guid: afc40aba2f254d3478516f8803271d3b, type: 2}
+  - {fileID: 2100000, guid: 2aeee3192b7474f4e8dd9bfc039b933b, type: 2}
+  - {fileID: 2100000, guid: 499f886d4a2e3824dbddbf15091e2fb6, type: 2}
+  - {fileID: 2100000, guid: 146de0a61efe1ee4d82a89a0e0e3b445, type: 2}
+  letters:
+  - {fileID: 4300018, guid: b4b0015ce3d35824e84df90c910fd0e9, type: 3}
+  - {fileID: 4300014, guid: b4b0015ce3d35824e84df90c910fd0e9, type: 3}
+  - {fileID: 4300012, guid: b4b0015ce3d35824e84df90c910fd0e9, type: 3}
+  - {fileID: 4300010, guid: b4b0015ce3d35824e84df90c910fd0e9, type: 3}
+  - {fileID: 4300008, guid: b4b0015ce3d35824e84df90c910fd0e9, type: 3}
+  - {fileID: 4300006, guid: b4b0015ce3d35824e84df90c910fd0e9, type: 3}
+  - {fileID: 4300004, guid: b4b0015ce3d35824e84df90c910fd0e9, type: 3}
+  - {fileID: 4300028, guid: b4b0015ce3d35824e84df90c910fd0e9, type: 3}

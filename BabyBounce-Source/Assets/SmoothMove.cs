@@ -17,7 +17,6 @@ public class SmoothMove : MonoBehaviour, IOnMove {
 	}
 
 	public void OnMove(IntVector3 from, IntVector3 to) {
-		Debug.Log(to);
 		if (currentCoroutine != null)
 			StopCoroutine(currentCoroutine);
 		currentCoroutine = StartCoroutine(MoveSmoothly(lastPosition, (Vector3)to));
@@ -27,7 +26,7 @@ public class SmoothMove : MonoBehaviour, IOnMove {
 		for (float t = 0; t < moveTime; t += Time.deltaTime) {
 			float p = t / moveTime;
 			targetPos = Vector3.Lerp(fromPos, toPos, groundCurve.Evaluate(p));
-			if (toPos.z - fromPos.z < .5f)
+			if (toPos.y - fromPos.y > -.5f)
 				targetPos += Vector3.up * verticalCurve.Evaluate(p);
 			else
 				targetPos.y = Mathf.Lerp(fromPos.y, toPos.y, p);

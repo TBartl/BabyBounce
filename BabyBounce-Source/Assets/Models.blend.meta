@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: b4b0015ce3d35824e84df90c910fd0e9
+timeCreated: 1521296537
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube_001
+    100006: Curve
+    100008: Curve_001
+    100010: Curve_002
+    100012: Curve_003
+    100014: Curve_004
+    100016: Curve_005
+    100018: Curve_006
+    100020: Curve_007
+    100022: BlockSimple_001
+    100024: BlockHigh
+    100026: BlockSimple
+    100028: Block
+    100030: Curve_008
+    400000: //RootNode
+    400002: Cube
+    400004: Cube_001
+    400006: Curve
+    400008: Curve_001
+    400010: Curve_002
+    400012: Curve_003
+    400014: Curve_004
+    400016: Curve_005
+    400018: Curve_006
+    400020: Curve_007
+    400022: BlockSimple_001
+    400024: BlockHigh
+    400026: BlockSimple
+    400028: Block
+    400030: Curve_008
+    2100000: Material
+    2100002: unnamed
+    2100004: SVGMat_018
+    2100006: SVGMat_016
+    2100008: SVGMat_014
+    2100010: SVGMat_012
+    2100012: SVGMat_010
+    2100014: SVGMat_008
+    2100016: SVGMat_006
+    2100018: SVGMat_004
+    2100020: Fin__Normal
+    2100022: None__Normal
+    2100024: Wood__Normal
+    2100026: Color__Normal
+    2100028: Color
+    2100030: Wood
+    2300000: //RootNode
+    2300002: Cube
+    2300004: Cube_001
+    2300006: Curve
+    2300008: Curve_001
+    2300010: Curve_002
+    2300012: Curve_003
+    2300014: Curve_004
+    2300016: Curve_005
+    2300018: Curve_006
+    2300020: Curve_007
+    2300022: BlockSimple_001
+    2300024: BlockHigh
+    2300026: BlockSimple
+    2300028: Block
+    2300030: Curve_008
+    3300000: //RootNode
+    3300002: Cube
+    3300004: Cube_001
+    3300006: Curve
+    3300008: Curve_001
+    3300010: Curve_002
+    3300012: Curve_003
+    3300014: Curve_004
+    3300016: Curve_005
+    3300018: Curve_006
+    3300020: Curve_007
+    3300022: BlockSimple_001
+    3300024: BlockHigh
+    3300026: BlockSimple
+    3300028: Block
+    3300030: Curve_008
+    4300000: Cube
+    4300002: Cube_001
+    4300004: Curve_007
+    4300006: Curve_006
+    4300008: Curve_005
+    4300010: Curve_004
+    4300012: Curve_003
+    4300014: Curve_002
+    4300016: Curve_001
+    4300018: Curve
+    4300020: BlockSimple_001
+    4300022: BlockHigh
+    4300024: BlockSimple
+    4300026: Block
+    4300028: Curve_008
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

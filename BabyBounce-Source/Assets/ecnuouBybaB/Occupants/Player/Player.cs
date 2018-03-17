@@ -17,7 +17,7 @@ public class Player : MonoBehaviour {
 
 	public int maxBufferSize = 3;
 
-	public KeyDirectionPair[] keyDirectionPairs;
+	public KeyCode[] keys;
 
 	List<IntVector3> buffer = new List<IntVector3>();
 
@@ -30,10 +30,10 @@ public class Player : MonoBehaviour {
 	}
 
 	void Update () {
-		foreach (KeyDirectionPair pair in keyDirectionPairs) {
-			if (Input.GetKeyDown(pair.key)) {
-				if (buffer.Count < maxBufferSize)
-					buffer.Add(pair.direction);
+		for (int i = 0; i < keys.Length; i++) {
+			if (Input.GetKeyDown(keys[i]) && buffer.Count < maxBufferSize) {
+				IntVector3 dir = IntVector3.directions[(i + CameraFollow.S.GetDirectionOffset()) % 4];
+				buffer.Add(dir);
 			}
 		}
 
