@@ -15,6 +15,8 @@ public class BabyBounceBaby : MonoBehaviour {
 
 	public float rotSpeed = 100f;
 
+	public float sizeIncrease = .2f;
+
 	void Awake() {
 		rigid = this.GetComponent<Rigidbody2D>();
 	}
@@ -38,6 +40,16 @@ public class BabyBounceBaby : MonoBehaviour {
 			return;
 		alreadySwitched = true;
 		goingUp = !goingUp;
+	}
+
+	void OnTriggerEnter2D(Collider2D collision) {
+		if (collision.GetComponent<Candy>()) {
+			if (collision.GetComponent<Candy>().isSize)
+				this.transform.localScale = Vector3.one * (transform.localScale.x + sizeIncrease);
+			else
+				BabyBounceGameManager.S.speed += BabyBounceGameManager.S.speedIncrease;
+			Destroy(collision.gameObject);
+		}
 	}
 
 

@@ -361,6 +361,8 @@ MonoBehaviour:
   speed: 4
   upSpeed: 2.6
   xBounds: {x: -5, y: 1}
+  rotSpeed: 100
+  sizeIncrease: 0.4
 --- !u!212 &212156046753989034
 SpriteRenderer:
   m_ObjectHideFlags: 1
