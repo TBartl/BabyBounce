@@ -7,6 +7,10 @@ public class Block : MonoBehaviour {
 	static int blockCount;
 	public List<Sprite> randomSprites;
 
+	Block() {
+		blockCount = 0;
+	}
+
 	void Awake() {
 		blockCount += 1;
 	}

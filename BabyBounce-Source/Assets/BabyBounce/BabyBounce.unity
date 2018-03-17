@@ -196,10 +196,49 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d4da6dcc958e3c14cba533328e3831f8, type: 3}
   - {fileID: 21300000, guid: 03c2ffde2895768459f63fb8a14cb609, type: 3}
   - {fileID: 21300000, guid: ec4d13f2ac593f34eb647a8e07cc0d67, type: 3}
+  - {fileID: 21300000, guid: f68a70c51ad23e344a6ffc888c35c0bc, type: 3}
   instructionSR: {fileID: 820003802}
   candies:
   - {fileID: 1325751606115548, guid: d1df3c8fb3c35384eb04ebd934602d19, type: 2}
   - {fileID: 1551574636019094, guid: bc705a8da8e596c4e817976709b0bb62, type: 2}
+  spikes: {fileID: 1523106836253676, guid: b9067e73c762aaf4b8a68ba38d27db32, type: 2}
+  candyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 5
+      value: 4.5
+      inSlope: -0.02478042
+      outSlope: -0.02478042
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 100.10968
+      value: 0.31869507
+      inSlope: -0.0067958874
+      outSlope: -0.0067958874
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spikeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0.003677298
+      value: 6.0900497
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 99.04114
+      value: 1.2213135
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  targetScene: 0
 --- !u!4 &103595810
 Transform:
   m_ObjectHideFlags: 0
@@ -1032,7 +1071,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

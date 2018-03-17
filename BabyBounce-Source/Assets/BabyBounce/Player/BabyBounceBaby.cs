@@ -25,8 +25,11 @@ public class BabyBounceBaby : MonoBehaviour {
 	void FixedUpdate () {
 		if (BabyBounceGameManager.S.started) {
 			rigid.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed, goingUp ? upSpeed : -upSpeed);
+			this.transform.rotation *= Quaternion.Euler(0, 0, -rotSpeed * Time.deltaTime);
 		}
-		this.transform.rotation *= Quaternion.Euler(0, 0, -rotSpeed * Time.deltaTime);
+		else {
+			rigid.velocity = Vector3.zero;
+		}
 		alreadySwitched = false;
 	}
 	void LateUpdate() {
@@ -45,10 +48,12 @@ public class BabyBounceBaby : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D collision) {
 		if (collision.GetComponent<Candy>()) {
 			if (collision.GetComponent<Candy>().isSize)
-				this.transform.localScale = Vector3.one * (transform.localScale.x + sizeIncrease);
+				this.transform.localScale = Vector3.one * Mathf.Min(transform.localScale.x + sizeIncrease, 3);
 			else
 				BabyBounceGameManager.S.speed += BabyBounceGameManager.S.speedIncrease;
 			Destroy(collision.gameObject);
+		}else if (collision.GetComponent<Spikes>()) {
+			BabyBounceGameManager.S.EndGame();
 		}
 	}
 

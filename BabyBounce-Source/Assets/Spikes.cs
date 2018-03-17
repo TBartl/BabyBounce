@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Candy : MonoBehaviour {
-
-	public bool isSize;
+public class Spikes : MonoBehaviour {
 
 	void Update() {
-		if (BabyBounceGameManager.S.started)
+		if (BabyBounceGameManager.S.started == true) {
 			this.transform.position += Vector3.left * BabyBounceGameManager.S.speed * Time.deltaTime;
+		}
 	}
-
 }
