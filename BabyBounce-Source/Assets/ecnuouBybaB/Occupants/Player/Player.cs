@@ -9,6 +9,7 @@ public struct KeyDirectionPair {
 }
 
 [RequireComponent(typeof(Movable))]
+[RequireComponent(typeof(Gravity))]
 public class Player : MonoBehaviour {
 
 	IntTransform intTransform;
