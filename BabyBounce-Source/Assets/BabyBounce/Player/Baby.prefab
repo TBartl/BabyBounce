@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   upSpeed: 2.6
-  xBounds: {x: -5, y: 1}
+  xBounds: {x: -5, y: 2}
   rotSpeed: 100
   sizeIncrease: 0.4
 --- !u!212 &212407555589015210
