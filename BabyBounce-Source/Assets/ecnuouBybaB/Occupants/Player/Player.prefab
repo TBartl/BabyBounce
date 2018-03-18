@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 114098536735066454}
   - component: {fileID: 114297602062777328}
   - component: {fileID: 114488022917209724}
+  - component: {fileID: 114118686984750326}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -132,6 +133,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotate: 1
+--- !u!114 &114118686984750326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239870928255682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f2c5a2ad3792d8409f63dd3c87da738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 1255550365252640, guid: 964700a85b85a9240abe258c4d24c5da, type: 2}
 --- !u!114 &114297602062777328
 MonoBehaviour:
   m_ObjectHideFlags: 1

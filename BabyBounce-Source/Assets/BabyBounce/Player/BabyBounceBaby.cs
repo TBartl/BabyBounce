@@ -43,6 +43,7 @@ public class BabyBounceBaby : MonoBehaviour {
 			return;
 		alreadySwitched = true;
 		goingUp = !goingUp;
+		BabyBounceSoundManager.S.bounce.Play();
 	}
 
 	void OnTriggerEnter2D(Collider2D collision) {
@@ -52,8 +53,11 @@ public class BabyBounceBaby : MonoBehaviour {
 			else
 				BabyBounceGameManager.S.speed += BabyBounceGameManager.S.speedIncrease;
 			Destroy(collision.gameObject);
-		}else if (collision.GetComponent<Spikes>()) {
+			BabyBounceSoundManager.S.yum.Play();
+		}
+		else if (collision.GetComponent<Spikes>()) {
 			BabyBounceGameManager.S.EndGame();
+			BabyBounceSoundManager.S.owch.Play();
 		}
 	}
 

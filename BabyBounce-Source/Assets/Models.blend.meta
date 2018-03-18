@@ -23,6 +23,12 @@ ModelImporter:
     100030: Curve_008
     100032: Baby
     100034: Spikes
+    100036: Cone
+    100038: Spike0
+    100040: Spike1
+    100042: Spike2
+    100044: Spike3
+    100046: Spike4
     400000: //RootNode
     400002: Cube
     400004: Cube_001
@@ -41,6 +47,12 @@ ModelImporter:
     400030: Curve_008
     400032: Baby
     400034: Spikes
+    400036: Cone
+    400038: Spike0
+    400040: Spike1
+    400042: Spike2
+    400044: Spike3
+    400046: Spike4
     2100000: Material
     2100002: unnamed
     2100004: SVGMat_018
@@ -75,6 +87,12 @@ ModelImporter:
     2300030: Curve_008
     2300032: Baby
     2300034: Spikes
+    2300036: Cone
+    2300038: Spike0
+    2300040: Spike1
+    2300042: Spike2
+    2300044: Spike3
+    2300046: Spike4
     3300000: //RootNode
     3300002: Cube
     3300004: Cube_001
@@ -93,6 +111,12 @@ ModelImporter:
     3300030: Curve_008
     3300032: Baby
     3300034: Spikes
+    3300036: Cone
+    3300038: Spike0
+    3300040: Spike1
+    3300042: Spike2
+    3300044: Spike3
+    3300046: Spike4
     4300000: Cube
     4300002: Cube_001
     4300004: Curve_007
@@ -110,6 +134,12 @@ ModelImporter:
     4300028: Curve_008
     4300030: Baby
     4300032: Spikes
+    4300034: Cone
+    4300036: Spike3
+    4300038: Spike2
+    4300040: Spike0
+    4300042: Spike4
+    4300044: Spike1
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}

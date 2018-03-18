@@ -46,6 +46,8 @@ public class BabyBounceGameManager : MonoBehaviour {
 		while (!Input.GetKeyDown(KeyCode.Space)) {
 			yield return null;
 		}
+
+		BabyBounceSoundManager.S.timeToPlay.Play();
 		Destroy(title.gameObject);
 		started = true;
 		yield return new WaitForSeconds(tutorialPace * .5f);

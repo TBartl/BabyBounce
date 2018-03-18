@@ -11,5 +11,6 @@ public class Occupant : MonoBehaviour {
 	void Awake () {
 		intTransform = this.GetComponent<IntTransform>();
 		OccupantManager.S.occupants[intTransform.position] = this.gameObject;
+		OccupantManager.S.lowestPoint = Mathf.Min(OccupantManager.S.lowestPoint, intTransform.position.y);
 	}
 }

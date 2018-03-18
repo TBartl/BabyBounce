@@ -8,6 +8,8 @@ public class OccupantManager : MonoBehaviour {
 
 	public Dictionary<IntVector3, GameObject> occupants;
 
+	public int lowestPoint;
+
 	void Awake () {
 		S = this;
 		occupants = new Dictionary<IntVector3, GameObject>();
