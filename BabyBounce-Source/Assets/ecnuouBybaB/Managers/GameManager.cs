@@ -21,6 +21,13 @@ public class GameManager : MonoBehaviour {
 		StartCoroutine(FadeFromBlack());
 	}
 
+	void Update() {
+		if (Input.GetKeyDown(KeyCode.Alpha0) && !running) {
+			running = false;
+			StartCoroutine(FadeToBlack(0));
+		}
+	}
+
 	public void ResetLevel() {
 		if (!running)
 			return;

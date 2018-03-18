@@ -24,6 +24,9 @@ public class Player : MonoBehaviour {
 	public float moveTime = .2f;
 	bool readyToMove = true;
 
+	public bool canClimb = false;
+	public bool canPush = false;
+
 	void Awake() {
 		intTransform = this.GetComponent<IntTransform>();
 		movable = this.GetComponent<Movable>();
@@ -40,7 +43,16 @@ public class Player : MonoBehaviour {
 		if (buffer.Count > 0 && readyToMove) {
 			IntVector3 dir = buffer[0];
 			buffer.RemoveAt(0);
-			movable.TryMoveTo(intTransform.position + dir);
+			IntVector3 testPos = intTransform.position + dir;
+			GameObject objectAtSpot = OccupantManager.S.OccupantAt(testPos);
+			if (canClimb && objectAtSpot && !OccupantManager.S.OccupantAt(testPos + IntVector3.up) && !OccupantManager.S.OccupantAt(intTransform.position + IntVector3.up))
+				movable.TryMoveTo(testPos + IntVector3.up);
+			else if (canPush && objectAtSpot && OccupantManager.S.OccupantAt(testPos + IntVector3.up) && OccupantManager.S.OccupantAt(intTransform.position + IntVector3.down)) {
+				objectAtSpot.GetComponent<Movable>().TryMoveTo(testPos + dir);
+				movable.TryMoveTo(testPos);
+			}
+			else
+				movable.TryMoveTo(testPos);
 			StartCoroutine(Moved());
 		}
 	}

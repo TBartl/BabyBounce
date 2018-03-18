@@ -31,6 +31,10 @@ public class SoundManager : MonoBehaviour {
 		SceneChanged();
 	}
 
+	void OnDestroy() {
+		SceneManager.activeSceneChanged -= SceneChanged;
+	}
+
 	void SceneChanged() {
 		int newScene = SceneManager.GetActiveScene().buildIndex;
 		if (newScene == 0) {

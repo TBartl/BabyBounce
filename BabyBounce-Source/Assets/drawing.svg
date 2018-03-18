@@ -275,6 +275,68 @@
          stdDeviation="92.70857"
          id="feGaussianBlur4552" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5705-66"
+       x="-0.034298453"
+       width="1.068597"
+       y="-0.34536946"
+       height="1.6907389">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="10.243881"
+         id="feGaussianBlur5707-6" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5709"
+       id="linearGradient4515"
+       x1="-499.31467"
+       y1="-395.88361"
+       x2="229.29774"
+       y2="-390.06635"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5709"
+       id="linearGradient4783"
+       gradientUnits="userSpaceOnUse"
+       x1="-499.31467"
+       y1="-395.88361"
+       x2="89.441216"
+       y2="-395.88361" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5176"
+       x="-0.05262262"
+       width="1.1052452"
+       y="-0.07663982"
+       height="1.1532796">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="19.284383"
+         id="feGaussianBlur5178" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5709"
+       id="linearGradient4783-8"
+       gradientUnits="userSpaceOnUse"
+       x1="-499.31467"
+       y1="-395.88361"
+       x2="89.441216"
+       y2="-395.88361" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5709"
+       id="linearGradient5278"
+       gradientUnits="userSpaceOnUse"
+       x1="-499.31467"
+       y1="-395.88361"
+       x2="89.441216"
+       y2="-395.88361" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -284,10 +346,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.12374369"
-     inkscape:cx="-1510.6993"
-     inkscape:cy="-1968.3509"
+     inkscape:cx="521.60151"
+     inkscape:cy="-2024.9901"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g5605-2-6"
      showgrid="false"
      inkscape:window-width="1500"
      inkscape:window-height="937"
@@ -1707,7 +1769,7 @@
        style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4404"
        width="2227.3999"
-       height="5856.9985"
+       height="6496.9985"
        x="1979.8989"
        y="151.30614" />
     <g
@@ -2517,6 +2579,318 @@
        y="2903.7908"
        transform="matrix(0.19859229,0,0,0.19859229,-1987.4911,2803.3854)"
        inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\ecnuouBybaB\blurred.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g5180"
+       transform="matrix(1.4774524,0,0,1.4774524,91.58554,-1280.6537)"
+       inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\BabyBounce\Win.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="rect4136-1-9-8-0-7-8"
+         d="m -323.11523,2285.7207 -12.50196,255.6953 255.695315,12.502 12.501953,-255.6953 -255.695308,-12.502 z m 559.87304,8.7734 -255.988279,2.4551 2.457031,255.9883 255.988278,-2.4551 -2.45703,-255.9883 z m -612.51758,0.5684 -255.82031,9.5664 9.56641,255.8223 255.82031,-9.5664 -9.56641,-255.8223 z M -7.4746094,2608.3164 -24.822266,2863.7285 230.58984,2881.0762 247.9375,2625.666 -7.4746094,2608.3164 Z m -590.4160106,0.7891 -17.45313,255.4043 255.4043,17.4511 17.45312,-255.4043 -255.40429,-17.4511 z m 523.158198,11.5664 -255.656248,13.291 13.29297,255.6543 255.654294,-13.291 -13.291016,-255.6543 z"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5176)"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g4936">
+        <g
+           transform="matrix(0.9993016,-0.03736726,0.03736726,0.9993016,275.60505,2262.9102)"
+           id="g4429-0-1-8"
+           inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\BabyBounce\Environment\TileB.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90">
+          <rect
+             y="7.7907047"
+             x="-908.11053"
+             height="256"
+             width="256"
+             id="rect4136-1-9-8-0-7"
+             style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="16.882078"
+             x="-899.01917"
+             height="237.81726"
+             width="237.81726"
+             id="rect4136-1-69-7-4"
+             style="opacity:1;fill:#ff921b;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="43.334553"
+             x="-872.56665"
+             height="184.91231"
+             width="184.91231"
+             id="rect4136-1-6-3-77-5"
+             style="opacity:1;fill:#e9c6af;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text4395-3-2-8"
+             y="195.38988"
+             x="-779.37952"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:176.13011169px;line-height:125%;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;fill:#ff921b;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;text-align:center;text-anchor:middle;fill:#ff921b;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+               y="195.38988"
+               x="-779.37952"
+               id="tspan4397-9-8-8"
+               sodipodi:role="line">Y</tspan></text>
+        </g>
+        <g
+           transform="matrix(0.99880681,0.04883602,-0.04883602,0.99880681,584.29281,2322.2879)"
+           id="g4429-6-7"
+           inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\BabyBounce\Environment\TileA.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90">
+          <rect
+             y="7.7907047"
+             x="-908.11053"
+             height="256"
+             width="256"
+             id="rect4136-1-9-6-4"
+             style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="16.882078"
+             x="-899.01917"
+             height="237.81726"
+             width="237.81726"
+             id="rect4136-1-91-6"
+             style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="43.334553"
+             x="-872.56665"
+             height="184.91231"
+             width="184.91231"
+             id="rect4136-1-6-8-6"
+             style="opacity:1;fill:#e9c6af;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text4395-8-5"
+             y="195.38988"
+             x="-779.37952"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:176.13011169px;line-height:125%;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+               y="195.38988"
+               x="-779.37952"
+               id="tspan4397-8-2"
+               sodipodi:role="line">O</tspan></text>
+        </g>
+        <g
+           transform="matrix(0.99995398,-0.00959352,0.00959352,0.99995398,-1174.0807,2300.2385)"
+           id="g4634-8-2"
+           inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\BabyBounce\Environment\TileH.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90">
+          <rect
+             y="7.7907047"
+             x="1154.8289"
+             height="256"
+             width="256"
+             id="rect4136-1-9-8-1-0-4-3-3"
+             style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="16.882078"
+             x="1163.9202"
+             height="237.81726"
+             width="237.81726"
+             id="rect4136-1-69-24-05-7-1-6"
+             style="opacity:1;fill:#ff59e9;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="43.334549"
+             x="1190.3727"
+             height="184.91231"
+             width="184.91231"
+             id="rect4136-1-6-3-7-9-4-5-9"
+             style="opacity:1;fill:#e9c6af;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text4395-3-83-8-1-0-6"
+             y="195.38988"
+             x="1283.5598"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:176.13011169px;line-height:125%;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;fill:#ff59e9;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;text-align:center;text-anchor:middle;fill:#ff59e9;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+               y="195.38988"
+               x="1283.5598"
+               id="tspan4397-9-5-5-4-3-6"
+               sodipodi:role="line">U</tspan></text>
+        </g>
+        <g
+           transform="matrix(0.99767364,0.06817115,-0.06817115,0.99767364,308.63763,2663.2396)"
+           id="g4429-0-8-5"
+           inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\BabyBounce\Environment\TileB.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90">
+          <rect
+             y="7.7907047"
+             x="-908.11053"
+             height="256"
+             width="256"
+             id="rect4136-1-9-8-16-2"
+             style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="16.882078"
+             x="-899.01917"
+             height="237.81726"
+             width="237.81726"
+             id="rect4136-1-69-8-9"
+             style="opacity:1;fill:#d4f227;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="43.334553"
+             x="-872.56665"
+             height="184.91231"
+             width="184.91231"
+             id="rect4136-1-6-3-3-4"
+             style="opacity:1;fill:#e9c6af;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text4395-3-39-2"
+             y="195.38988"
+             x="-779.37952"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:176.13011169px;line-height:125%;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;fill:#d4f227;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;text-align:center;text-anchor:middle;fill:#d4f227;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+               y="195.38988"
+               x="-779.37952"
+               id="tspan4397-9-82-4"
+               sodipodi:role="line">W</tspan></text>
+        </g>
+        <g
+           transform="matrix(0.99865114,-0.05192214,0.05192214,0.99865114,-1189.4968,2670.8291)"
+           id="g4627-1-9"
+           inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\BabyBounce\Environment\TileG.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90">
+          <rect
+             y="7.7907047"
+             x="859.86438"
+             height="256"
+             width="256"
+             id="rect4136-1-9-8-1-0-8-7"
+             style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="16.882078"
+             x="868.95575"
+             height="237.81726"
+             width="237.81726"
+             id="rect4136-1-69-24-05-77-3"
+             style="opacity:1;fill:#b33eff;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="43.334553"
+             x="895.40826"
+             height="184.91231"
+             width="184.91231"
+             id="rect4136-1-6-3-7-9-9-6"
+             style="opacity:1;fill:#e9c6af;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text4395-3-83-8-6-1"
+             y="195.38988"
+             x="988.5954"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:176.13011169px;line-height:125%;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;fill:#b33eff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;text-align:center;text-anchor:middle;fill:#b33eff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+               y="195.38988"
+               x="988.5954"
+               id="tspan4397-9-5-5-3-8"
+               sodipodi:role="line">I</tspan></text>
+        </g>
+        <g
+           transform="matrix(0.99770108,0.06776832,-0.06776832,0.99770108,899.07719,2662.0847)"
+           id="g4429-0-94-7-3-3"
+           inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\BabyBounce\Environment\TileE.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90">
+          <rect
+             y="7.7907047"
+             x="-908.11053"
+             height="256"
+             width="256"
+             id="rect4136-1-9-8-1-5-5-6"
+             style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="16.882078"
+             x="-899.01917"
+             height="237.81726"
+             width="237.81726"
+             id="rect4136-1-69-24-0-9-1"
+             style="opacity:1;fill:#00f6e5;fill-opacity:1;stroke:none;stroke-width:0.34;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <rect
+             y="43.334553"
+             x="-872.56665"
+             height="184.91231"
+             width="184.91231"
+             id="rect4136-1-6-3-7-6-6-0"
+             style="opacity:1;fill:#e9c6af;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text4395-3-83-4-8-4"
+             y="195.38988"
+             x="-779.37952"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:176.13011169px;line-height:125%;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;fill:#00f6e5;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-weight:bold;text-align:center;text-anchor:middle;fill:#00f6e5;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+               y="195.38988"
+               x="-779.37952"
+               id="tspan4397-9-5-9-0-2"
+               sodipodi:role="line">N</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g5605-2"
+       transform="matrix(2.0524454,0,0,2.0524454,212.39471,4011.8973)"
+       inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\BabyBounce\Win.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         sodipodi:linespacing="125%"
+         id="text5583-7-9"
+         y="-372.47751"
+         x="-497.05615"
+         style="font-style:normal;font-weight:normal;font-size:66.69167328px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5705-66)"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+           y="-372.47751"
+           x="-497.05615"
+           id="tspan5585-1-6"
+           sodipodi:role="line">Thanks for Playing</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5583-5"
+         y="-372.47754"
+         x="-497.05615"
+         style="font-style:normal;font-weight:normal;font-size:66.69167328px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none"
+           y="-372.47754"
+           x="-497.05615"
+           id="tspan5585-3"
+           sodipodi:role="line">Thanks for Playing</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5583-1-6"
+         y="-373.48767"
+         x="-500.08661"
+         style="font-style:normal;font-weight:normal;font-size:66.69167328px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4783);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';fill:url(#linearGradient4783);fill-opacity:1"
+           y="-373.48767"
+           x="-500.08661"
+           id="tspan5585-6-9"
+           sodipodi:role="line">Thanks for Playing</tspan></text>
+    </g>
+    <path
+       style="opacity:1;fill:#ff5555;fill-opacity:1;stroke:none;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 3854.7422,5877.1378 a 145.17478,145.17478 0 0 0 -145.1747,145.1747 145.17478,145.17478 0 0 0 145.1747,145.1747 145.17478,145.17478 0 0 0 145.1747,-145.1747 145.17478,145.17478 0 0 0 -145.1747,-145.1747 z m 0,40.5131 a 104.66089,104.66089 0 0 1 104.66,104.6616 104.66089,104.66089 0 0 1 -104.66,104.6616 104.66089,104.66089 0 0 1 -104.6616,-104.6616 104.66089,104.66089 0 0 1 104.6616,-104.6616 z m 0,50.0633 a 54.597779,54.597779 0 0 0 -54.5984,54.5983 54.597779,54.597779 0 0 0 54.5984,54.5983 54.597779,54.597779 0 0 0 54.5983,-54.5983 54.597779,54.597779 0 0 0 -54.5983,-54.5983 z"
+       id="path5224"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\ecnuouBybaB\Text43.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g5605-2-6"
+       transform="matrix(2.0524454,0,0,2.0524454,-1436.1742,3446.2119)"
+       inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\BabyBounce\Win.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>

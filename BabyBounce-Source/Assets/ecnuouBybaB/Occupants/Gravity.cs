@@ -29,23 +29,25 @@ public class Gravity : MonoBehaviour, IOnMove {
 		yield return null;
 		falling = true;
 		while (true) {
-			bool didGrasp = false;
-			for (int i = 0; i < 4; i++) {
-				IntVector3 inDir = intTransform.position + IntVector3.directions[i];
-				if (OccupantManager.S.OccupantAt(inDir) && !OccupantManager.S.OccupantAt(inDir + IntVector3.up)) {
-					didGrasp = true;
-					graspers[i].SetActive(true);
+			if (grasping) {
+				bool didGrasp = false;
+				for (int i = 0; i < 4; i++) {
+					IntVector3 inDir = intTransform.position + IntVector3.directions[i];
+					if (OccupantManager.S.OccupantAt(inDir) && !OccupantManager.S.OccupantAt(inDir + IntVector3.up)) {
+						didGrasp = true;
+						graspers[i].SetActive(true);
+					}
+					else {
+						graspers[i].SetActive(false);
+					}
 				}
-				else {
-					graspers[i].SetActive(false);
-				}
+				if (didGrasp)
+					break;
 			}
-			if (didGrasp)
-				break;
 
 			if (OccupantManager.S.OccupantAt(intTransform.position + IntVector3.down))
 				break;
-			
+
 
 			movable.TryMoveTo(intTransform.position + IntVector3.down);
 			yield return new WaitForSeconds(fallTime);
@@ -56,6 +58,6 @@ public class Gravity : MonoBehaviour, IOnMove {
 	public bool IsFalling() {
 		return falling;
 	}
-	
-	
+
+
 }

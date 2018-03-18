@@ -239,7 +239,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  targetScene: 0
+  targetScene: 1
 --- !u!4 &103595810
 Transform:
   m_ObjectHideFlags: 0
