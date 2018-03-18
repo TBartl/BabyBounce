@@ -29,6 +29,10 @@ ModelImporter:
     100042: Spike2
     100044: Spike3
     100046: Spike4
+    100048: Extend0
+    100050: Extend1
+    100052: Extend2
+    100054: Extend3
     400000: //RootNode
     400002: Cube
     400004: Cube_001
@@ -53,6 +57,10 @@ ModelImporter:
     400042: Spike2
     400044: Spike3
     400046: Spike4
+    400048: Extend0
+    400050: Extend1
+    400052: Extend2
+    400054: Extend3
     2100000: Material
     2100002: unnamed
     2100004: SVGMat_018
@@ -93,6 +101,10 @@ ModelImporter:
     2300042: Spike2
     2300044: Spike3
     2300046: Spike4
+    2300048: Extend0
+    2300050: Extend1
+    2300052: Extend2
+    2300054: Extend3
     3300000: //RootNode
     3300002: Cube
     3300004: Cube_001
@@ -117,6 +129,10 @@ ModelImporter:
     3300042: Spike2
     3300044: Spike3
     3300046: Spike4
+    3300048: Extend0
+    3300050: Extend1
+    3300052: Extend2
+    3300054: Extend3
     4300000: Cube
     4300002: Cube_001
     4300004: Curve_007
@@ -140,6 +156,10 @@ ModelImporter:
     4300040: Spike0
     4300042: Spike4
     4300044: Spike1
+    4300046: Extend3
+    4300048: Extend2
+    4300050: Extend1
+    4300052: Extend0
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}

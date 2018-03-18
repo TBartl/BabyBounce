@@ -21,6 +21,7 @@ public class PlayerDeath : MonoBehaviour {
 			this.GetComponent<Movable>().TryMoveTo(targetPos);
 			Instantiate(blood, this.transform.position, Quaternion.identity);
 			GameManager.S.NextLevel();
+			SoundManager.S.win.Play();
 		}
 	}
 }

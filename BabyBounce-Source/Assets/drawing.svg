@@ -262,6 +262,19 @@
        y1="-395.88361"
        x2="863.37964"
        y2="-395.88361" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4550"
+       x="-0.1872"
+       width="1.3744"
+       y="-0.1872"
+       height="1.3744">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="92.70857"
+         id="feGaussianBlur4552" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -270,9 +283,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748738"
-     inkscape:cx="2589.0012"
-     inkscape:cy="-3712.7499"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="-1510.6993"
+     inkscape:cy="-1968.3509"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2495,5 +2508,16 @@
          y="5530.0181"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';text-align:center;text-anchor:middle;fill:#c8ff55;fill-opacity:1;stroke:none;stroke-opacity:1;"
          id="tspan5133-4-3-7-0-8-0-8-9-08">🔥</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4550)"
+       id="rect4492"
+       width="1188.5714"
+       height="1188.5714"
+       x="-3074.2856"
+       y="2903.7908"
+       transform="matrix(0.19859229,0,0,0.19859229,-1987.4911,2803.3854)"
+       inkscape:export-filename="C:\Users\tabsk\Desktop\Projects\BabyBounce\BabyBounce-Source\Assets\ecnuouBybaB\blurred.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
