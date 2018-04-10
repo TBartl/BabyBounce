@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/ecnuouBybaB/Level1.unity
     guid: f984a8cec90c86e44b7b87f7589eeca2
   - enabled: 1
+    path: Assets/ecnuouBybaB/Before.unity
+    guid: e38794a2d87ed854b87c9d67f675f0cf
+  - enabled: 1
+    path: Assets/ecnuouBybaB/Start.unity
+    guid: 686bf095a54294d4a9a899ad53d5abd3
+  - enabled: 1
     path: Assets/ecnuouBybaB/Level2.unity
     guid: 90f5c5eb50ff6a44b9b1862848406c6c
   - enabled: 1
@@ -23,3 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ecnuouBybaB/Level5.unity
     guid: 89d65be075fd4ac44b05e68fe45e3c53
+  - enabled: 1
+    path: Assets/ecnuouBybaB/End.unity
+    guid: f4ab16439206b3142a0b98a22cce494f
+  m_configObjects: {}
