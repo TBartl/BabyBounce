@@ -37,7 +37,7 @@ public class SoundManager : MonoBehaviour {
 
 	void SceneChanged() {
 		int newScene = SceneManager.GetActiveScene().buildIndex;
-		if (newScene == 0) {
+		if (newScene == SceneManager.sceneCountInBuildSettings - 1) {
 			Destroy(this.gameObject);
 		} else if (lastScene != newScene) {
 			phrase.clip = phrases[newScene - 1];
